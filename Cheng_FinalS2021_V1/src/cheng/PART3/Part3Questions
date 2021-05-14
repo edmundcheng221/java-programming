@@ -1,0 +1,34 @@
+1) Two or more methods that have the same name can be in the same class as long as they accept 
+different parameters. A method's signature is unique (method + parameters). 
+Method overloading allows for polymorphic behavior as methods can have multiple behavior even 
+though it has the same name.
+
+2) A java virtual machine enables compiled bytecode to be run platform-independent or on any platform. The
+Java Virtual Machine is a program that executes code and provides a runtime environment for that code. The
+Java Virtual Machine also manages computer memory. The program continuously identifies and eliminates unused
+memory.
+
+3) Inheritance allows for the child class to use all functions and variables from the parent class without
+explicitly defining them again. Polymorphism allows for functions to perform many tasks mainly due to
+inheritance -- classes are related to one another because of inheritance. For instance many sub classes
+can inherit from a parent class however each of those sub classes are related to one another but can do
+different things.
+
+4) A java class can implement more than one interface. Interfaces can provide default implementation of methods.
+Thus implemented interfaces allow the programmer to use the default method or override it. Thus, in a way,
+multiple inheritance can be achieved.
+
+5) One advantage is to separate error from the code itself. By using exception handling, you can explicitly 
+tell the program what to do when it encounters an error, cannot read file, or an edge case so that the program does not
+crash and give some ugly message. It also makes error detection and debugging easier as you differentiate errors.
+
+6) Statically typed means that the programmer must explicitly specify the data type of an object or variable.
+Therefore a java programmer would be less likely to make a type error since they know beforehand what type
+each variable is. 
+
+7) A java class can support as many constructors as long as their signatures are not the same.
+
+8) An interface allows you to define a method that does not have an implementation. Thus when a class implements
+that interface, the implementation must be specified. This allows for classes to implement interfaces multiple times
+as long as the method signature is different. This allows for polymorphic behavior because multiple methods
+can have the same name but different behaviors thus, "many forms."
